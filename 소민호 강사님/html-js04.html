@@ -6,14 +6,33 @@
     <title>갤러리 만들기</title>
 
     <style>
+        body {
+            background-color: black;
+        }
+        b {
+            background-color: lightyellow;
+            color: darkturquoise;
+            text-align: center;
+            display: block;
+            margin-top: 10%;
+            font-size: 30px;
+            margin-left: 25%;
+            margin-right: 25%;            
+        }
         #div-img {
+            background-color: lightyellow;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 400px;
+            margin-left: 25%;
+            margin-right: 25%;
         }
         #div-btn {
             text-align: center;
+            background-color: lightpink;
+            margin-left: 25%;
+            margin-right: 25%;
         }
     </style>
 
@@ -28,12 +47,13 @@
     </script>
 </head>
 <body>
+    <b>고양이 사진 모음</b>
     <div id="div-img">
         <img src="#" id="gallery"/>
     </div>
     <div id="div-btn">
-        <button id="prev" style="width: 100pt; height: 40pt"><</button>
-        <button id="next" style="width: 100pt; height: 40pt">></button>
+        <button id="prev" style="width: 100pt; height: 30pt"><</button>
+        <button id="next" style="width: 100pt; height: 30pt">></button>
     </div>
 
     <script>
