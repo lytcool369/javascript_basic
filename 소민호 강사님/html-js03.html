@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구구단</title>
+</head>
+<body>
+    <input id="dan" type="text" value="" />
+    <button id="btn">입력</button>
+<script>
+    const btn = document.getElementById("btn");
+    const danInput = document.getElementById("dan");
+
+    btn.addEventListener("click", () => {
+        const dan = parseInt(danInput.value)
+
+        for (i=1; i<10; i++){
+            console.log(dan, " X ", i, " = ", dan * i);
+        }
+    });
+</script>
+</body>
+</html>

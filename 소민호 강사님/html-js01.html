@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 테스트</title>
+
+    <script>
+        // head에 위치한 자바스크립트 코드
+        // 페이지(DOM 구조)가 로딩되기 전에 실행
+        const headTempInput = document.getElementById("temp-input");
+        console.log("여기는 헤드입니다.", headTempInput.value);
+    </script>
+</head>
+<body>
+    <input type="text" id="temp-input" value="여기에 있는 문자열이 콘솔로 표시됩니다." />
+<script>
+    // body 끝에 위치한 자바스크립트 코드
+    // ex) 버튼을 눌렀을 때 등등
+    const bodyTempInput = document.getElementById("temp-input");
+    console.log("여기는 바디 끝자락 입니다.", headTempInput.value);
+</script>
+</body>
+</html>
