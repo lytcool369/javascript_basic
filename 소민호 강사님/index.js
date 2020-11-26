@@ -2,7 +2,7 @@
 // 2. 터미널: npm init
 // 3. 터미널: npm install nodemon
 // 4. package.json -> "scripts" -> "start": "nodemon index.js" 추가
-// 5. 
+// 5. npm start
 
 
 
